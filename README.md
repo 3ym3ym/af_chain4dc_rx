@@ -5,7 +5,7 @@ This little project was created to complete the standalone direct conversion (DC
  - Control board. Can be any microcontroller running the qudrature VFO code. I am currently using RP2040 SuperMini, 0.96" SSD1306 OLED display and 360PPI optical encoder.
 The idea behind the whole project is to build a high performance SSB/CW receiver using only cheap parts readily available from Aliexpress or other similar sources.
 
-Included files are the KiCAD project (schematic and PCB) which uses SMD footprints. It can be modified to use through hole footprints. All parts are available in TH variants.
+Included files are the KiCAD 9.0 project (schematic and PCB) which uses SMD footprints. It can be modified to use through hole footprints. All parts are available in TH variants.
 
 The first stage is a simple CE amplifier, also used to set the bias point to the following filter stages. The gain (and the input impedance) is set by R15.
 
