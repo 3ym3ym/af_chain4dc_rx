@@ -1,5 +1,7 @@
 # af_chain4dc_rx
 AF chain for DC receiver
+![aud_chain2](https://github.com/user-attachments/assets/36d1fe67-288f-4a0c-9817-7d489e96968d)
+
 This little project was created to complete the standalone direct conversion (DC) receiver. Other parts of the receiver are:
  - Main board (input filter, quadrature mixer, AF preamps, phasing SSB demodulator). Si5351A board from Adafruit (or Aliexpress clone) is attached to it.
  - Control board. Can be any microcontroller running the qudrature VFO code. I am currently using RP2040 SuperMini, 0.96" SSD1306 OLED display and 360PPI optical encoder.
